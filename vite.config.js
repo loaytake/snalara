@@ -1,3 +1,4 @@
+import MillionLint from '@million/lint';
 import react from '@vitejs/plugin-react';
 import laravel from 'laravel-vite-plugin';
 import {
@@ -12,6 +13,7 @@ export default defineConfig({
             ssr: 'resources/js/ssr.jsx',
             refresh: true,
         }),
+        MillionLint.vite(),
         react(),
         tailwindcss(),
     ],
