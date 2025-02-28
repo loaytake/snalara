@@ -15,7 +15,7 @@ enum PermissionsEnum: string
             self::MANAGEFEATURES => 'Features Manager',
             self::MANAGEUSERS => 'Users Manager',
             self::MANAGECOMMENTS => 'Comments Manager',
-            self::UPVOTEDOWNVOTE => 'Votes Manager',
+            self::UPVOTEDOWNVOTE => 'Manage Votes',
         };
     }
 }
